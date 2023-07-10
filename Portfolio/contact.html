@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Portfolio/css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="myWork.html">My Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="contact" class="py-7">
+        <div class="container">
+            <div class="contact-content flex">
+                <div class="contact-left">
+                    <div class="title">
+                        <a href="#" class="special-word2">Contact me</a>
+                    </div>
+                    <p class="lead"><i class="fas fa-phone-alt"></i> +41 76 250 75 61</p>
+                    <p class="lead"><i class="fas fa-envelope"></i> srivision.photography@gmail.com</p>
+
+                    <form action="send_email.php" method="POST">
+                        <input type="text" class="form-control" placeholder="Your name here..." name="name">
+                        <input type="email" class="form-control" placeholder="Your email here..." name="email">
+                      
+                        <label for="subject">Subject:</label>
+                        <select id="subject" name="subject" required>
+                          <option value="">Select a subject</option>
+                          <option value="For Photoshot ">For Photoshot</option>
+                          <option value="Buy Picture">Buy Picture</option>
+                          <option value="Portrait shoot">Portrait shoot</option>
+                        </select><br><br>
+                      
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                      
+                        <input type = "submit" class = "btn-submit btn" value = "Submit">
+                      </form>
+                </div>
+                <div class="contact-right">
+                    <img src="img/natur.JPG" alt="contact image" class="center-image">
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="py-7">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Netharsana Jeyakumar</h3>
+                    <div><img src="img/sri_.jpg" alt="Sri's image"></div>
+                </div>
+                <div>
+                    <h3>Links</h3>
+                    <ul class="flex">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="myWork.html">Work</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                        <li><a href="https://github.com/xmin12/M293_jasmin_Jeya.git">Github</a></li>
+                        <li><a href="https://instagram.com/sri_vision?igshid=NTc4MTIwNjQ2YQ==">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>&copy; 2023 Netharsana Jeyakumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

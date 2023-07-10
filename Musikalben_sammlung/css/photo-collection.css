@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item:nth-child(2) img {
+  transform: scale(0.5);
+}
+
+
+.grid-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.grid-content p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.grid-content h2,
+.grid-content h4 {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+footer.footer {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
